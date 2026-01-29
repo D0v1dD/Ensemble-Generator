@@ -1,21 +1,22 @@
 # Ensemble-Generator
 
-Files utlizied to generate Ensemble of 100K Protein Structures. Structures were made by Rosetta and Flexible Meccano, and Chemical Shifts were determined by PPM_One 
-
+Files used in generating 100K Ensemble Protein Structures. Structures were made by using Rosetta and Flexible Meccano, and Chemical Shifts were determined by PPM_One 
 
 Summary of Contents:
-|File Name        | Description |    
+|File Name        | File Description |    
 |:----------------|:------------|
 |000_make_folders.sh| Script creating folders for all the amino acids |
-|002_make_the2klists.sh|  |
-|004A_make_fixbb_folders.sh| |
-|004B_submit_all_fixbb.sh| |
-|005_make_cs_folders.sh| |
-|006_submit_predict_cs.sh| |
+|002_make_the2klists.sh| Script appending files into a singular text file|
+|004A_make_fixbb_folders.sh| Created folders for fixed backbone of structures|
+|004B_submit_all_fixbb.sh| Script applies fixing of backbone for structures|
+|005_make_cs_folders.sh| Creates folders to place the chemical shift prediction values|
+|006_submit_predict_cs.sh| Script submitting structures into PPM_One|
 |007_make_joined_rama_cs_folders.sh| Script joining the Ramachandran plots and Chemical Shifts|
 |008_run_all_join_dihedral_cs.py| Python Script for gathering Chemical Shifts onto one file|
 
-Rosetta  Version Utilized was 3.14
+Python Libraries can be obtained via config.py
 
-Python Libraries can be all installed via 
-(pip install file.py)
+Rosetta Version used was 3.14 release 371
+Rosetta can be downloaded here: https://downloads.rosettacommons.org/downloads/academic
+Flexible Meccano can be obtained here: https://www.ibs.fr/fr/communication/production-scientifique/logiciels/flexible-meccano
+PPM_One can be obtained here: https://github.com/UD-CRPL/ppm_one
