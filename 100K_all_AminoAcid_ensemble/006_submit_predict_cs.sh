@@ -1,0 +1,36 @@
+#!/bin/bash
+### run as a bash script
+### or submit as an sbatch job
+
+for input_folder in 005_*_fm2_fixbb ; do
+    ## figure out in which folder the output will go
+    remove_fileend=${input_folder%_fm2_fixbb}
+    amino_acid=${remove_fileend#005_}
+    output_folder="008_${amino_acid}_fm2_cs"
+
+
+       ## run PPM for each PDB file
+
+
+    ## output the .cs files into the right output folder
+
+
+   find "$input_folder" -name "*.pdb" | while read -r pdb_path; do
+        pdb_file=$(basename "$pdb_path")
+        filename_core=${pdb_file%.pdb}
+
+
+#       echo ${input_folder}/${pdb_file} " -> " ${output_folder}/${filename_core}.cs
+
+
+      ppm_linux -para old -pdb ${input_folder}/${pdb_file} -pre ${output_folder}/${filename_core}.cs
+
+
+    done
+    ## cleanup
+    rm -f bb_details.dat
+    rm -f bb_predict.dat
+    rm -f cs_rmsd.dat
+    rm -f proton_details.dat
+    rm -f proton_predict.dat
+done
