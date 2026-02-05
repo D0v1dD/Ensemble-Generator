@@ -6,17 +6,17 @@ Summary of Contents:
 |File Name        | File Description |    
 |:----------------|:------------|
 |000_make_folders.sh| Script creating folders for all the amino acids |
-|002_make_the2klists.sh| Script appending files into a singular text file|
-|004A_make_fixbb_folders.sh| Created folders for fixed backbone of structures|
-|004B_submit_all_fixbb.sh| Script applies fixing of backbone for structures|
+|002_make_the2klists.sh| Script matching files and appending into a singular text file|
+|004A_make_fixbb_folders.sh| Creates folders for fixed backbone of structures|
+|004B_submit_all_fixbb.sh| Script applies fixing of backbone on structures|
 |005_make_cs_folders.sh| Creates folders to place the chemical shift prediction values|
 |006_submit_predict_cs.sh| Script submitting structures into PPM_One|
-|007_make_joined_rama_cs_folders.sh| Script joining the Ramachandran plots and Chemical Shifts|
-|008_run_all_join_dihedral_cs.py| Python Script for gathering Chemical Shifts onto one file|
+|007_make_joined_rama_cs_folders.sh| Creates folders for analysis on ensemble results|
+|008_run_all_join_dihedral_cs.py| Python script for gathers Phi, Psi, and Chemical Shifts onto one file|
 
 Python Libraries can be obtained via config.py
 
 Rosetta Version used was 3.14 release 371
-Rosetta can be downloaded here: https://downloads.rosettacommons.org/downloads/academic
-Flexible Meccano can be obtained here: https://www.ibs.fr/fr/communication/production-scientifique/logiciels/flexible-meccano
-PPM_One can be obtained here: https://github.com/UD-CRPL/ppm_one
+* Rosetta can be downloaded [here](https://downloads.rosettacommons.org/downloads/academic) 
+* Flexible Meccano can be obtained [here](https://www.ibs.fr/fr/communication/production-scientifique/logiciels/flexible-meccano)
+* PPM_One can be obtained [here](https://github.com/UD-CRPL/ppm_one)
