@@ -1,6 +1,8 @@
 # Ensemble-Generator
 
-Files used in generating 100K Ensemble Protein Structures. Structures were made by using Rosetta and Flexible Meccano, and Chemical Shifts were determined by PPM_One 
+Files used in generating 100K Ensemble Protein Structures. Structures were made by using Rosetta and Flexible Meccano, and Chemical Shifts were determined by PPM_One. 
+
+Core Scripts can be found in 100K_all_AminoAcid_ensemble, other folders contain additional created ensembles 
 
 Summary of Contents:
 |File Name        | File Description |    
