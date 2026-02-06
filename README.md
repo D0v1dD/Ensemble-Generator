@@ -12,7 +12,7 @@ Summary of Contents:
 |005_make_cs_folders.sh| Creates folders to place the chemical shift prediction values|
 |006_submit_predict_cs.sh| Script submitting structures into PPM_One|
 |007_make_joined_rama_cs_folders.sh| Creates folders for analysis on ensemble results|
-|008_run_all_join_dihedral_cs.py| Python script for gathers Phi, Psi, and Chemical Shifts onto one file|
+|008_run_all_join_dihedral_cs.py| Python script gathers Phi, Psi, and Chemical Shifts onto one file|
 
 Python Libraries can be obtained via config.py
 
