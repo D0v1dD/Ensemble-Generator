@@ -1,6 +1,7 @@
 #!/bin/bash
 #Set directories to the execution for rosetta 
 #Set directories to resfile.txt
+#resfile.txt is a default file found within rosetta, but if missing file is included in this folder
 
 FIXBB_EXEC="/rosetta_bin_linux_3.14_bundle/rosetta.binary.linux.release-371/main/source/bin/fixbb.default.linuxgccrelease"
 DB="/rosetta_bin_linux_3.14_bundle/rosetta.binary.linux.release-371/main/database"
