@@ -16,7 +16,12 @@ Summary of Contents:
 |007_make_joined_rama_cs_folders.sh| Creates folders for analysis on ensemble results|
 |008_run_all_join_dihedral_cs.py| Python script gathers Phi, Psi, and Chemical Shifts onto one file|
 
-Python Libraries can be obtained via config.py
+
+Python Dependencies are within __pyproject.toml__ and can be installed by:
+
+```
+python -m install python .
+```
 
 Rosetta Version used was 3.14 release 371
 * Rosetta can be downloaded [here](https://downloads.rosettacommons.org/downloads/academic) 
