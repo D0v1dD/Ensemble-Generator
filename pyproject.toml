@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ensemble_gen"
+authors = [
+	{name = "Sakshi Krishna"}
+	{name = "David A Diaz"}
+	{name = "Kendra Frederick"}
+]
+description = "Script used for creating 100K Poly-Alanine Ensembles through Flexible Meccano and Rosetta"
+version = "0.1.0"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7.9"
+
+dependencies = [
+	"Bio>=1.81",
+	"tqdm>=4.42.1",
+	"pandas>=0.25.3",
+]
