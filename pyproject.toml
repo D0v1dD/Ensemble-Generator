@@ -5,8 +5,8 @@ build-backend = "hatchling.build"
 [project]
 name = "ensemble_gen"
 authors = [
-	{name = "Sakshi Krishna"}
-	{name = "David A Diaz"}
+	{name = "Sakshi Krishna"},
+	{name = "David A Diaz"},
 	{name = "Kendra Frederick"}
 ]
 description = "Script used for creating 100K Poly-Alanine Ensembles through Flexible Meccano and Rosetta"
